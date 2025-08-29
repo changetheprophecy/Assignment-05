@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emergency Hotline Service</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#f5fff6]">
+    <!-- navbar -->
+    <section
+      class="bg-white h-auto flex flex-col sm:flex-row justify-between items-center px-6 sm:px-10 py-4 gap-4"
+    >
+      <div class="flex items-center gap-3">
+        <img class="w-10 h-10 sm:w-12 sm:h-12" src="assets/logo.png" />
+        <p
+          class="font-extrabold leading-tight text-lg sm:text-xl text-[#006747]"
+        >
+          Emergency<br />Service
+        </p>
+      </div>
+
+      <div class="flex flex-wrap md:flex-nowrap items-center gap-3">
+        <div
+          class="flex items-center gap-1 bg-[#f5fff6] px-7 py-2 rounded-full shadow-sm"
+        >
+          <span class="font-semibold" id="heart-icon">0</span
+          ><img class="w-6 h-6" src="assets/heart.png" />
+        </div>
+
+        <div
+          class="flex items-center gap-1 bg-[#f5fff6] px-7 py-2 rounded-full shadow-sm"
+        >
+          <span class="font-semibold" id="money-icon">100</span
+          ><img class="w-6 h-6" src="assets/coin.png" />
+        </div>
+
+        <button class="btn bg-[#00a63e] text-white px-8 py-5 rounded-full">
+          <span id="copy-count">0</span>Copy
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
